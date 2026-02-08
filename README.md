@@ -1,6 +1,6 @@
 EXP:01 Ideal, Natural, & Flat-top -Sampling
-NAME: DEJASHINI T P
-REG NO: 212224060055
+NAME: Geethalakshmi D
+REG NO: 212224060079
 Aim
 Write a simple Python program for the construction and reconstruction of ideal, natural, and flattop sampling.
 
