@@ -1,14 +1,16 @@
-EXP:01 Ideal, Natural, & Flat-top -Sampling
-NAME: Geethalakshmi D
-REG NO: 212224060079
-Aim
+## EXP:01 Ideal, Natural, & Flat-top -Sampling
+## NAME: Geethalakshmi D
+## REG NO: 212224060079
+# Aim
 Write a simple Python program for the construction and reconstruction of ideal, natural, and flattop sampling.
 
-Tools required
+# Tools required
 Google Colab
 
-Program
-IDEAL SAMPLING
+# Program
+# IDEAL SAMPLING
+
+~~~
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.signal import resample
@@ -57,7 +59,11 @@ plt.legend()
 
 plt.tight_layout()
 plt.show()
-NATURAL SAMPLING
+~~~
+
+# NATURAL SAMPLING
+
+~~~
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.signal import butter, lfilter
@@ -132,7 +138,11 @@ plt.grid(True)
 
 plt.tight_layout()
 plt.show()
-FLAT-TOP SAMPLING
+~~~
+
+# FLAT-TOP SAMPLING
+
+~~~
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.signal import butter, lfilter
@@ -202,12 +212,18 @@ plt.legend()
 plt.grid(True)
 plt.tight_layout()
 plt.show()
-Output Waveform
-IDEAL SAMPLING
-image
-NATURAL SAMPLING
-image
-FLAT-TOP SAMPLING
-image
-Results
+~~~
+# Output Waveform
+
+# IDEAL SAMPLING
+<img width="780" height="519" alt="image" src="https://github.com/user-attachments/assets/6fba8fcf-3b73-4d29-9ef2-28acffcc4015" />
+
+
+# NATURAL SAMPLING
+<img width="780" height="555" alt="image" src="https://github.com/user-attachments/assets/fa426182-2360-4bbd-a693-b57a6894972a" />
+
+# FLAT-TOP SAMPLING
+<img width="780" height="553" alt="image" src="https://github.com/user-attachments/assets/fb3d2437-5bcc-42a4-97f1-592cb5d3703e" />
+
+# Results
 Thus, the construction and reconstruction of Ideal, Natural, and Flat-top sampling were successfully implemented using Python, and the corresponding waveforms were obtained.
